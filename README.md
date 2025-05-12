@@ -10,12 +10,13 @@ mvn install:install-file -Dfile="D:\nanonano.jar" -DgroupId=com.nanonano -Dartif
 
 
 
-<!-- tambahkan ke pom -->
- <dependency>
+```
+<dependency>
     <groupId>com.nanonano</groupId>
     <artifactId>app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 </dependency>
+```
 
 
 mvn install 
